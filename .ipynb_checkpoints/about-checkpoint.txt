@@ -1,0 +1,59 @@
+# Healthcare Data Analysis 2026 Project
+
+Technology Stack used: 
+- Microsoft Excel
+- Power BI/ Tableau
+- SQL (MySQL or SQL Server or PostgreSQL)
+- Python (Jupyter Notebook): Libraries
+
+About the Project
+Fields in the dataset: 
+Tables:
+1. Patient Record
+2. Doctor Record
+3. Medicine Record
+4. Room Record
+5. Accounts
+6. Logs Record (For Tracking Entries and Exit)
+
+Patient Record: 
+- Patient_ID
+- Patient_Name
+- Age
+- Doctor_Assigned
+- Treatment
+- Room_Alotted
+- Admit_Date
+- Exit_Date
+
+Doctor Record
+- Doctor_ID
+- Doctor_Name
+#####- Patient_Assigned
+- Specialized
+
+Medicine Record
+- Med_ID
+- Medicine_Name
+- Medicine_Expiry_Date
+######- Medicine_Category
+- Quantity
+
+Room Record
+- Room_ID
+- Room_Number
+- Occupancy
+
+Accounts Record
+- Patient_ID
+- Total_Bill
+- Doctor_Name
+- Insurance (Yes or No)
+- Discount_Percentage
+- Insurance_Company
+
+Logs Record
+- Entry_Time
+- Patient_ID
+- Exit_Time
+
